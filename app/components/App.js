@@ -41,7 +41,11 @@ export default class App extends Component {
 	    		</div>
 	    	);  			
   		} else {
-  			return(<div>LOADING...</div>)
+  			return(<div style={{textAlign: 'center'}}>
+        		<h1>Hello World</h1>
+        		<AmpImg height={300} width={100} src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/large/jab-harry-met-sejal-et00058252-09-06-2017-01-27-42.jpg" />
+      		</div>
+      		)
   		}
   	}
 }
